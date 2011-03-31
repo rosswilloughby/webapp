@@ -6,6 +6,6 @@ class MyApp < Sinatra::Base
   end
 
   get '/v' do
-    erb "Hello from Ruby <%= RUBY_VERSION %>"
+    erb "Hello from Ruby <%= RUBY_VERSION %>!"
   end
 end
